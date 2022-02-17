@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_main"
+        tools:context=".MainActivity">
+
+
+        <TextView
+            android:id="@+id/question_textview"
+            style="@style/questionStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:padding="14dp"
+            android:text="TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView?"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/guideline_above_question" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/guideline_below_answers"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/guideline_above_answer_buttons">
+
+            <Button
+                android:id="@+id/true_button"
+                style="@style/questionStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#43A047"
+                android:minHeight="80dp"
+                android:text="@string/true_button_text"
+                tools:ignore="TextContrastCheck" />
+
+            <Button
+                android:id="@+id/false_button"
+                style="@style/questionStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#BA1544"
+                android:minHeight="80dp"
+                android:text="@string/falsebuttontext" />
+        </LinearLayout>
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline_below_answers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent=".90" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline_above_answer_buttons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent=".7" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline_above_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent=".3" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline_below_ad"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            ads:layout_constraintGuide_percent="0.1" />
+
+        <TextView
+            android:id="@+id/score_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:padding="6dp"
+            android:shadowRadius="50"
+            android:text="100000"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/guideline_below_ad" />
+
+        <TextView
+            android:id="@+id/question_number_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="32dp"
+            android:text="Question 1 / 20"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            ads:layout_constraintBottom_toTopOf="@+id/guideline_above_question"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/score_text"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-3940256099942544/6300978111"
+            ads:layout_constraintVertical_bias="1.0"
+            app:layout_constraintBottom_toTopOf="@+id/guideline_below_ad"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

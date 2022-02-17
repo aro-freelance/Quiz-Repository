@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/end_screen_header"
+        style="@style/questionStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/end_screen_header_string"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/new_high_score_header_endscreen"
+        style="@style/questionStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/new_highscore_header"
+        android:textSize="22sp"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/new_high_score_edit_text_endscreen"
+        style="@style/questionStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_text_new_highscore_name"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/new_high_score_button"
+        style="@style/questionStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/new_high_score_button_string"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/highscore_text_endscreen"
+        style="@style/questionStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/highscore_placeholder_endscreen" />
+
+    <TextView
+        android:id="@+id/current_score_endscreen_text"
+        style="@style/questionStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/current_score_placeholder" />
+
+    <TextView
+        android:id="@+id/current_questions_right_text_endscreen"
+        style="@style/questionStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/current_question_right_text_placeholder" />
+</LinearLayout>

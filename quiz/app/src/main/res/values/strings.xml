@@ -1,0 +1,167 @@
+<resources>
+    <string name="app_name">Arora Quiz</string>
+    <string name="falsebuttontext">False</string>
+    <string name="true_button_text">True</string>
+    <string name="topimage_description">Top Image (Android Icon)</string>
+    <string name="previous_button_text">Previous</string>
+    <string name="next_button_text">Next</string>
+    <string name="end_screen_header_string">End of Quiz</string>
+    <string name="current_score_placeholder">Your Score: 900</string>
+    <string name="current_question_right_text_placeholder">Correct Answers: 9 / 10</string>
+    <string name="highscore_placeholder_endscreen">High Score: 1500</string>
+    <string name="edit_text_new_highscore_name">Enter Your Name</string>
+    <string name="new_highscore_header">New High Score!</string>
+    <string name="new_high_score_button_string">Enter</string>
+    <string name="correct_answer">That\'s correct</string>
+    <string name="wrong_answer">That\'s incorrect</string>
+
+
+
+<!--    questions-->
+
+<!--    USA-->
+    <string name="question_declaration">The (U.S.) Declaration of Independence was Adopted in 1776.</string>
+    <string name="question_constitution">The Supreme law of the land is the Constitution.</string>
+    <string name="question_amendments">The (U.S.) Constitution has 26 Amendments.</string>
+    <string name="question_independence_rights">The two rights in the Declaration of Independence are:\n \t <b>life</b>\n \t<b>pursuit of happiness</b>.</string>
+    <string name="question_religion">Freedom of religion means:\n \t<b>You can practice any religion, or not practice a religion</b>.</string>
+    <string name="question_government">Journalists is one branch of the U.S. government.</string>
+    <string name="question_government_feds">Congress does not make federal laws.</string>
+    <string name="question_government_senators">There are one hundred U.S. Senators.</string>
+
+<!--    Movies-->
+    <string name="matrix_food_true">The code in the Matrix comes from Sushi Cookbooks.</string>
+    <string name="lord_rings_false">The Lord of the Rings movies were filmed in Ireland.</string>
+    <string name="frozen_setting_true">Frozen takes place in the fictional land of Arendelle</string>
+    <string name="winter_soldier_false">Captain America: The Winter Solider topped Guardians of the Galaxy as the top-grossing movie of 2014.</string>
+    <string name="james_bond_true">Sean Connery wore a toupee in every James Bond movie.</string>
+    <string name="fight_club_true">There is a Starbucks cup in every scene in Fight Club.</string>
+    <string name="joker_false">Jack Nicholson, Mark Hamil, Sean Penn and Jared Leto have all played the Joker</string>
+    <string name="kirk_halloween_true">The mask worn by Michael Myer in Halloween is actually a modified Captain Kirk mask.</string>
+    <string name="mighty_ducks_false">In the Mighty Ducks, the character Gordon Bombay is played by Charlie Sheen.</string>
+    <string name="lion_king_true">In The Lion King, Mufasa is voiced by James Earl Jones.</string>
+    <string name="independence_day_true">Will Smith plays Captain Steven Hiller in Independence Day.</string>
+    <string name="private_ryan_false">Tom Hanks plays Private Ryan in Saving Private Ryan.</string>
+    <string name="haley_joel_false">Haley Joel Osment is the youngest person to ever win an Oscar.</string>
+    <string name="shrek_true">Chris Farley was cast as Shrek before passing away.</string>
+    <string name="mission_true">The original Mission: Impossible film was released in 1996.</string>
+    <string name="handle_the_truth_true">The famous quote: "You can't handle the truth!" is from the movie A Few Good Men.</string>
+    <string name="hoth_false">Obi-Wan Kenobi and Anakin Skywalker duel on Hoth in Star Wars Episode III: Revenge of the Sith.</string>
+
+
+
+<!--    History-->
+
+    <string name="pilgrims_true">The Mayflower was the name of one of the ships which transported the Pilgrims to America.</string>
+    <string name="flag_stripes_false">The American flag has 15 stripes.</string>
+    <string name="us_olympics_true">The first city is the United States to hosted the Olympics was St. Louis, Missouri.</string>
+    <string name="declaration_false">The Declaration of Independence was signed in Virginia.</string>
+    <string name="mount_rushmore_true">Mount Rushmore is in South Dakota.</string>
+    <string name="white_house_first_false">Thomas Jefferson was the first President to live in the White House.</string>
+    <string name="statue_liberty_true">The Statue of Liberty was gifted to the United States by France.</string>
+    <string name="stars_true">The American flag has 50 stars.</string>
+    <string name="maine_true">Maine is the only US State with a one syllable name.</string>
+    <string name="yale_false">Yale was the first university in the United States.</string>
+    <string name="titanic_true">The Titanic sunk in 1912.</string>
+    <string name="england_oldest_false">England is the oldest monarch in Europe.</string>
+    <string name="london_fire_true">Sir Christopher Wren is the architect who rebuilt London after the Great Fire of 1666.</string>
+    <string name="leif_true">Leif Erikson was the first European to land in North America.</string>
+    <string name="industrial_rev_false">The Industrial Revolution started in the U.S.A.</string>
+    <string name="bologna_true">The oldest university in Europe is the University of Bologna.</string>
+    <string name="pompeii_false">Pompeii was an ancient Egyptian city destroyed by the Mount Saint Helens.</string>
+    <string name="rome_false">The first Olympic games took place in Ancient Rome.</string>
+    <string name="wheel_true">The wheel was invented in Mesopotamia.</string>
+    <string name="water_moon_true">Water was found on the moon in 2009.</string>
+    <string name="achilles_true">Achilles fought in the Trojan War.</string>
+    <string name="rev_war_true">The Revolutionary War ended on September 3, 1783.</string>
+
+
+
+<!--    general  https://thoughtcatalog.com/samantha-newman/2020/03/250-best-trivia-questions/ -->
+    <string name="mm_false">The rarest color of M&amp;M is Yellow.</string>
+    <string name="greek_myth_first_woman_true">Pandora was the first woman on Earth according to Greek Mythology.</string>
+    <string name="winnie_pooh_false">The Winnie the Pooh books are written by C. S. Lewis.</string>
+    <string name="knox_true">The Declaration of Independence, the Constitution and the Bill of Rights were all moved to Fort Knox during World War II.</string>
+    <string name="dst_false">All states in the United States observe Daylight Saving Time.</string>
+    <string name="howler_monkey_false">The howler monkey is the loudest animal on Earth.</string>
+    <string name="potato_head_true">Mr. Potato Head was the first toy ever advertised on television.</string>
+    <string name="aglet_true">The hard end of a shoelace is called an aglet.</string>
+    <string name="shakespeare_false">King Lear is the longest play by Shakespeare.</string>
+    <string name="talc_true">The softest mineral in the world is Talc.</string>
+
+    <string name="thatcher_true">The first female Prime Minister of Great Britain was Margaret Thatcher.</string>
+    <string name="ribs_false">There are 48 ribs in the human body.</string>
+    <string name="india_ocean_false">The Indian Ocean is the smallest ocean in the world.</string>
+    <string name="mercury_false">Mercury is the hottest planet in our solar system.</string>
+    <string name="baby_knees_true">Human babies are born without knee caps.</string>
+    <string name="octopus_heart_true">An octopus has three hearts.</string>
+    <string name="giraffe_true">Giraffe have no vocal cords.</string>
+    <string name="classical_music_plants_true">Studies have shown that plants grown faster in the presence of classical music.</string>
+    <string name="first_state_false">New York was the first state.</string>
+    <string name="ph_water_false">Distilled water has a pH of around 10.</string>
+    <string name="bishop_false">The bishop is the only chess piece that can move diagonally.</string>
+    <string name="scissors_true">Leonardo da Vinci invented scissors.</string>
+    <string name="caesar_salad_true">The Caesar salad was invented in Mexico.</string>
+    <string name="nfl_super_bowl_false">The Baltimore Ravens, Tampa Bay Buccaneers and New England Patriots have won each Super Bowl in which they played.</string>
+    <string name="state_borders_false">All states in the continental United States border at least two other states.</string>
+    <string name="bagels_true">Bagels originated in Poland.</string>
+    <string name="hydrogen_true">Hydrogen is the first element on the Periodic Table.</string>
+    <string name="sake_false">Japanese sake is made from potatoes.</string>
+    <string name="chickpeas_true">Chickpeas and Garbanzo beans are the same type of legume.</string>
+    <string name="chocolate_false">Madagascar is the largest producer of chocolate in the world.</string>
+    <string name="strawberry_true">The strawberry is the only fruit with seeds on the outside.</string>
+    <string name="mercury_true">Mercury is the only metal that is liquid under normal conditions on Earth.</string>
+
+    <string name="love_apple_true">In ancient Greece, throwing an apple at someone meant that you loved them.</string>
+    <string name="elton_joel_false">Billy Joel wrote the songs for the Lion King.</string>
+    <string name="japan_vending_true">Japan has more vending machines per capita that the United States.</string>
+    <string name="sirius_true">The brightest star in the sky is also known as the Dog Star.</string>
+    <string name="carrots_false">Carrots are a good source of vitamin D.</string>
+    <string name="patronus_false">Harry Potter\'s Patronus is a horse.</string>
+    <string name="dali_false">Salvador Dali is a painter associated with the realism movement of the mid-19th century.</string>
+    <string name="home_plate_true">The home plate in baseball has 5 edges.</string>
+    <string name="blueberry_true">Blueberries are native to North America.</string>
+
+
+<!--    challenging https://www.scarymommy.com/best-trivia-questions-answers/ -->
+
+    <string name="coffee_true">Most of the coffee in the world comes from Brazil.</string>
+    <string name="moon_true">There are eight phases of the moon.</string>
+    <string name="bones_false">Human bones are made of keratin.</string>
+    <string name="potassium_true">The symbol for Potassium is K.</string>
+    <string name="ant_false">Ants can lift 10 times their weight.</string>
+    <string name="soccer_football_true">Soccer and America football teams both have the same number of players on the field at a time.</string>
+
+
+
+<!--    books -->
+
+    <string name="don_quixote_true">Don Quixote was written in Spanish.</string>
+    <string name="beowulf_true">Beowulf faces a monster called Grendel.</string>
+    <string name="twain_false">Tom Sawyer and Huckleberry Finn are from Georgia.</string>
+    <string name="dorian_gray_true">The Picture of Dorian Gray was written by Oscar Wilde.</string>
+    <string name="scrooge_false">In A Christmas Carol, Scrooge is visited by two ghosts.</string>
+
+
+<!--    video games -->
+
+
+    <string name="pong_false">The first commercially successful video game was Pac Man.</string>
+    <string name="snes_true">The Super Nintendo Entertainment System was released in 1991.</string>
+    <string name="nintendo_true">Nintendo was founded in 1889.</string>
+    <string name="wow_false">World of Warcraft was made by Electronic Arts.</string>
+    <string name="us_airforce_ps3_true">The United States Airforce used a PS3 to create a cluster supercomputer.</string>
+    <string name="jump_man_true">Jump Man was the original name of Mario in the arcade version of Donkey Kong.</string>
+    <string name="vr_false">The first Virtual Reality headset was made in 2004.</string>
+    <string name="yoshi_false">Mario\'s dinosaur sidekick is called Luigi.</string>
+    <string name="rupees_true">In the first Legend of Zelda game, the maximum amount of Rupees a player can have is 255.</string>
+    <string name="aerosmith_true">Aerosmith made more money from Guitar Hero than from any of their albums.</string>
+    <string name="rainbowroad_false">The final course in all Mario Kart games is called "Diamond Road".</string>
+    <string name="question_counter_view_string">\"Question : \"</string>
+    <string name="your_score_dialog_view_string">\"Your Score: \"</string>
+    <string name="correct_answers_dialog_string">\"Correct Answers : \"</string>
+    <string name="high_score_view_string">\"High Score: \"</string>
+    <string name="by">\" by \"</string>
+
+
+</resources>
